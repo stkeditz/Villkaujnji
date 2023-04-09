@@ -38,6 +38,14 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
         ]
+        [
+           InlineKeyboardButton(
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
+            ),
+           InlineKeyboardButton(
+                text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
+            ),
+        ],
     ]
 )
 
