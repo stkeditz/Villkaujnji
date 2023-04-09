@@ -40,10 +40,9 @@ buttons = InlineKeyboardMarkup(
         ]
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
-            ),
+                text="💝ᴄʜᴀɴɴᴇʟ💝", url=f"https://t.me/LOVE_FEELINGS_WILL1"),
            InlineKeyboardButton(
-                text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya"),
+                text="💖sᴜᴘᴘᴏʀᴛ💝", url=f"https://t.me/aarohi_ki_duniya"),
         ]
     ]
 )
@@ -63,7 +62,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://t.me/HONEY_SINGH121"
+            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://t.me/HONEY_SINGH_121"
         ),
         InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
     ],
