@@ -5,6 +5,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import config
 from FallenMusic import BOT_USERNAME
 
+def stream_markup_timer(videoid):
+
 close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
 )
