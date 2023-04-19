@@ -1,4 +1,4 @@
-# Edit By 🤫🤫
+# Edit By 🤫dil🤫
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -19,11 +19,12 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
         ],
         [
-           InlineKeyboardButton(text="🍃ᴅɪʟ🍃", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
-           InlineKeyboardButton(text="❣️ ʏᴏᴜᴛᴜʙᴇ ❣️", url=f"https://m.youtube.com/@stkeditzOfficial"),
+           InlineKeyboardButton(text="❣️ ᴅɪʟ ❣️", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+           InlineKeyboardButton(text="❣️ ᴏᴡɴᴇʀ ❣️", user_id=config.OWNER_ID),
         ],
-        [   
-           InlineKeyboardButton(text="❣️ sᴜᴩᴩᴏʀᴛ ❣️", url=config.SUPPORT_CHAT),                InlineKeyboardButton(text="❣️ ᴏᴡɴᴇʀ ❣️", user_id=config.OWNER_ID),
+        [  
+           InlineKeyboardButton(text="❣️ ʏᴏᴜᴛᴜʙᴇ ❣️", url=f"https://m.youtube.com/@stkeditzOfficial"), 
+           InlineKeyboardButton(text="❣️ sᴜᴩᴩᴏʀᴛ ❣️", url=config.SUPPORT_CHAT),            
         ],
         [
            InlineKeyboardButton(text="❣️ ᴄʟᴏsᴇ ❣️", callback_data="close"),
