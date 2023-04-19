@@ -5,9 +5,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import config
 from FallenMusic import BOT_USERNAME
 
-def stream_markup_timer(_, videoid, chat_id, played, dur):
-    played_sec = time_to_seconds(played)
-    duration_sec = time_to_seconds(dur)
 close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
 )
@@ -22,9 +19,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
         ],
         [
-            InlineKeyboardButton(
-                text="➕ ❣️ ᴩʟᴀʏʟɪsᴛ ❣️ ➕",
-                callback_data=f"add_playlist {videoid}"),
+           InlineKeyboardButton(text="🍃ᴅɪʟ🍃", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
         ],
         [   
            InlineKeyboardButton(text="❣️ sᴜᴩᴩᴏʀᴛ ❣️", url=config.SUPPORT_CHAT),                InlineKeyboardButton(text="❣️ ᴏᴡɴᴇʀ ❣️", user_id=config.OWNER_ID),
