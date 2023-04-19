@@ -22,7 +22,7 @@ buttons = InlineKeyboardMarkup(
            InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),                InlineKeyboardButton(text="♕ ᴏᴡɴᴇʀ ♕", user_id=config.OWNER_ID),
         ],
         [
-           InlineKeyboardButton(text="ʏᴏᴜᴛᴜʙᴇ", url=f"https://youtube.com/@BikashGadgetsTech"),
+           InlineKeyboardButton(text="ʏᴏᴜᴛᴜʙᴇ", url=f"https://youtube.com/stkeditz"),
         ],
         [
            InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
