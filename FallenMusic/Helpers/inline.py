@@ -20,17 +20,17 @@ buttons = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="➕ ✨ ᴩʟᴀʏʟɪsᴛ ✨ ➕",
+                text="➕ ❣️ ᴩʟᴀʏʟɪsᴛ ❣️ ➕",
                 callback_data=f"add_playlist {videoid}"),
         ],
         [   
-           InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),                InlineKeyboardButton(text="♕ ᴏᴡɴᴇʀ ♕", user_id=config.OWNER_ID),
+           InlineKeyboardButton(text="❣️ sᴜᴩᴩᴏʀᴛ ❣️", url=config.SUPPORT_CHAT),                InlineKeyboardButton(text="❣️ ᴏᴡɴᴇʀ ❣️", user_id=config.OWNER_ID),
         ],
         [
-           InlineKeyboardButton(text="ʏᴏᴜᴛᴜʙᴇ", url=f"https://m.youtube.com/@stkeditzOfficial"),
+           InlineKeyboardButton(text="❣️ ʏᴏᴜᴛᴜʙᴇ ❣️", url=f"https://m.youtube.com/@stkeditzOfficial"),
         ],
         [
-           InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+           InlineKeyboardButton(text="❣️ ᴄʟᴏsᴇ ❣️", callback_data="close"),
         ],
     ]
 )
