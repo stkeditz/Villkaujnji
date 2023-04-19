@@ -18,6 +18,11 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
         ],
+        [
+            InlineKeyboardButton(
+                text="➕ ✨ ᴩʟᴀʏʟɪsᴛ ✨ ➕",
+                callback_data=f"add_playlist {videoid}"),
+        ],
         [   
            InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),                InlineKeyboardButton(text="♕ ᴏᴡɴᴇʀ ♕", user_id=config.OWNER_ID),
         ],
