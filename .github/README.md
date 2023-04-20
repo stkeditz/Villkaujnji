@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/1f070ea3147e2a3ef44e4.jpg">
+  <img src="https://te.legra.ph/file/e68f585a0a2e4e5dc1164.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴠɪʟʟᴀɪɴ ✘ ᴍᴜsɪᴄ](https://t.me/Alone_Dil_bot)**_
