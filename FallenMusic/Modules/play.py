@@ -251,7 +251,7 @@ async def play(_, message: Message):
         await add_active_chat(message.chat.id)
         await message.reply_photo(
             photo=imgt,
-            caption=f"➻ **🍃sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ ɪɴ ʜᴇᴀᴠᴇɴ🍃**\n\n**💖ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴅɪʟ♡ᴀᴀʀᴏʜɪ]**\n\n ❣️ **ᴛɪᴛʟᴇ :** [{0}]({1})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ :** {2} ᴍɪɴᴜᴛᴇs\n🌿 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {3}\n\n **💞🌹ᴀᴀʀᴏʜɪ ɪ ʟᴏᴠᴇ ʏᴏᴜ sᴏ ᴍᴜᴄʜ🌹💞**\n\n|| ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [ᴅɪʟ❣️](https://t.me/Honey_Singh_121) 🥀 ||",
+            caption=f"➻ **🍃sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ ɪɴ ʜᴇᴀᴠᴇɴ🍃**\n\n**💖ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴅɪʟ♡ᴀᴀʀᴏʜɪ]**\n\n ❣️ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n🌿 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}\n\n **💞🌹ᴀᴀʀᴏʜɪ ɪ ʟᴏᴠᴇ ʏᴏᴜ sᴏ ᴍᴜᴄʜ🌹💞**\n\n|| ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [ᴅɪʟ❣️](https://t.me/Honey_Singh_121) 🥀 ||",
             reply_markup=buttons,
         )
 
