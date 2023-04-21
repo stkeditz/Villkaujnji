@@ -27,6 +27,12 @@ buttons = InlineKeyboardMarkup(
            InlineKeyboardButton(text="❣️ sᴜᴩᴩᴏʀᴛ ❣️", url=config.SUPPORT_CHAT),            
         ],
         [
+            InlineKeyboardButton(
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+        ],
+        [
            InlineKeyboardButton(text="❣️ ᴄʟᴏsᴇ ❣️", callback_data="close"),
         ],
     ]
