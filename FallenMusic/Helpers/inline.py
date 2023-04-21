@@ -99,3 +99,66 @@ help_back = [
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
     ],
 ]
+
+
+## Cpanel Markup
+
+
+def panel_markup_1(_, videoid, chat_id):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text="▷",
+                callback_data=f"ADMIN Resume|{chat_id}",
+            ),
+            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["PL_B_2"],
+                callback_data=f"add_playlist {videoid}",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_3"],
+                url=f"{SUPPORT_GROUP}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="⇆ sʜᴜғғʟᴇ ⇆",
+                callback_data=f"ADMIN Shuffle|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="↻ ʟᴏᴏᴩ ↻", callback_data=f"ADMIN Loop|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="⏮ 10 sᴇᴄᴏɴᴅ",
+                callback_data=f"ADMIN 1|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="⏭ 10 sᴇᴄᴏɴᴅ",
+                callback_data=f"ADMIN 2|{chat_id}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="⏮ 30 sᴇᴄᴏɴᴅ",
+                callback_data=f"ADMIN 3|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="⏭ 30 sᴇᴄᴏɴᴅ",
+                callback_data=f"ADMIN 4|{chat_id}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="↻ ʙᴀᴄᴋ ↻",
+                callback_data=f"MainMarkup {videoid}|{chat_id}",
+            ),
+        ],
+    ]
+    return buttons
